@@ -81,5 +81,7 @@ public class MyMain {
         else{
             System.out.println("Here is your string in uppercase: " + (myToUpperCase(command)));
         }
+
+        scan.close();
     }
 }
